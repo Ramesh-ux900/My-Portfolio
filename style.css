@@ -1,0 +1,147 @@
+body {
+    font-family: "Montserrat", serif;
+    margin:0px;
+    background-color:black;
+}
+
+.portfolio{
+    display:flex;
+    height:100vh;
+}
+.navbar{
+    background-color:#121212;
+    position:fixed;
+    top:0px;
+    height:6rem;
+    width:100%;
+}
+
+.main-content{
+    background-color:#121212;
+    flex:1;
+    overflow:auto;
+    border-radius:0.2rem;
+}
+
+.nav{
+    display:flex;
+    justify-content:space-between;
+    margin-right:1rem;
+}
+
+.logo{
+    margin-left:1rem;
+    font-size:1.5rem;
+    color:white;
+    opacity:0.5rem;
+}
+
+.logo:hover{
+    opacity:2rem;
+}
+
+.logo:active{
+    color:yellow;
+}
+
+#search{
+    border-radius:1rem;
+    height:1.5rem;
+    margin-right:0.2rem;
+    background-color:black;
+    color:white;
+    box-shadow: 1px 2px 2px 2px #fff;
+}
+
+#search:hover{
+    box-shadow: 1px 2px 2px 2px #000;
+}
+
+
+.nav-content{
+    margin-top:1rem;
+    margin-right:1rem;
+    color:white;
+    opacity:0.5rem;
+}
+.nav-content:hover{
+    opacity:1rem;
+}
+.nav-content:active{
+    color:green;
+}
+
+.hello{
+    margin-top:1rem;
+}
+
+.nav-options{
+    margin-top:1rem;
+}
+
+.main{
+    display:flex;
+    margin-top:7rem;
+    margin-left:2rem;
+}
+
+.p-one{
+    color:white;
+    margin-left:1rem;
+    text-shadow: 1px 1px 1px white;
+}
+.p-one:hover{
+    text-shadow: 1px 2px 1px green;
+}
+
+
+.p-two{
+    color:white;
+    margin-top:-1rem;
+    text-shadow: 1px 1px 1px black;
+}
+.p-two:hover{
+    text-shadow: 1px 2px 1px green;
+}
+
+.link-one{
+    font-size:1.5rem;
+    margin-right:0.5rem;
+}
+
+.picture{
+    height:22rem;
+    width:15rem;
+}
+
+.link-two{
+    margin-left:6rem;
+    margin-top:5rem;
+}
+
+.picture{
+    border-radius:1rem;
+    box-shadow: 2px 2px 2px 2px white ;
+}
+
+.picture:hover{
+    box-shadow: 2px 2px 2px 2px yellow;
+}
+p{
+    color:white;
+    margin-left:13rem;
+}
+p:active{
+    color:#000;
+}
+h2{
+    color:white;
+    margin-left:5rem;
+}
+
+h2:hover{
+    color:blue;
+}
+
+
+
